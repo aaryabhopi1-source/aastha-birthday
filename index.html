@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Bestie ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Effects -->
+    <div id="effects"></div>
+    
+    <canvas id="fireworks"></canvas>
+
+    <!-- Music -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="music.mpeg" type="audio/mpeg">
+    </audio>
+
+    <button id="musicBtn">🎵 Play Music</button>
+
+
+    <!-- Birthday Hero -->
+    <div class="hero">
+
+        <h1>🎂 Happy Birthday Panu ❤️</h1>
+
+        <h2 style="color: black;">1 September 2026</h2>
+
+        <div id="countdown">
+            Loading...
+        </div>
+
+        <button id="surpriseBtn" onclick="openSurprise()">
+            🎁 Open Surprise
+        </button>
+    </div>
+
+
+    <!-- Photo Gallery -->
+    <section class="gallery">
+
+        <h2>📸 Beautiful Memories</h2>
+
+        <div class="slider">
+
+            <img
+                id="sliderImage"
+                src="Birthday photos/1.jpeg"
+                alt="Beautiful Memory"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- Birthday Message -->
+    <section class="message">
+
+        <h2>💖 For You</h2>
+
+        <p>
+            May this birthday bring endless happiness,
+            success, peace, love and unforgettable memories.
+            <br><br>
+            Stay happy forever. ❤️
+        </p>
+
+    </section>
+
+
+    <!-- Surprise Popup -->
+    <div id="surprise" class="surprise">
+
+        <div class="card">
+
+            <h1>🎉 Happy Birthday Aastha ❤️</h1>
+
+            <p>
+                To My Forever Bestie, 💕
+                It’s been almost **2 years** since you went to another city for your studies… 🥹
+                आणि खरं सांगायचं तर, distance वाढलं पण आपली friendship अजिबात कमी झाली नाही. 🫶🏻
+                आपण रोज भेटत नाही, रोज बोलतही नाही कधी-कधी…
+                पण तरीसुद्धा तू माझ्यासाठी तितकीच special आहेस. 🌸
+                कितीही दूर असलीस तरी काही लोक मनापासून कधीच दूर जात नाहीत…
+                and you’re definitely one of those people. 💗
+                I miss our random talks, silly jokes, आणि ते छोटे-छोटे moments. 🥹🫂
+                I just want you to know that no matter how many cities come between us,
+                you’ll always have a special place in my heart. ♾️💕
+                Miss you, bestie!🥹💗**
+
+            </p>
+
+            <button onclick="document.getElementById('surprise').style.display='none';">
+                Close 💗
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
