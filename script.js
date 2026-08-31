@@ -92,7 +92,7 @@ setInterval(function () {
     }
 
     document.getElementById("sliderImage").src =
-        photos[currentPhoto];
+        "./"+photos[currentPhoto];
 
 }, 3000);
 // FLOATING HEARTS ❤️
