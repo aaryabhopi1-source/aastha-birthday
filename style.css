@@ -13,7 +13,7 @@ overflow-x:hidden;
 }
 
 .hero{
-padding:60px 20px;
+padding:45px 10px;
 }
 
 .hero h1{
@@ -62,7 +62,7 @@ color:#ffd700;
 }
 
 .slider img{
-width:350px;
+width:250px;
 max-width:90%;
 border-radius:20px;
 box-shadow:0 0 25px gold;
