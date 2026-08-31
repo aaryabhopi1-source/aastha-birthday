@@ -63,22 +63,22 @@ function openSurprise() {
 // ===============================
 
 const photos = [
-    "Birthday Photos/1.jpeg",
-    "Birthday Photos/2.jpeg",
-    "Birthday Photos/3.jpeg",
-    "Birthday Photos/4.jpeg",
-    "Birthday Photos/5.jpeg",
-    "Birthday Photos/6.jpeg",
-    "Birthday Photos/7.jpeg",
-    "Birthday Photos/8.jpeg",
-    "Birthday Photos/9.jpeg",
-    "Birthday Photos/10.jpeg",
-    "Birthday Photos/11.jpeg",
-    "Birthday Photos/12.jpeg",
-    "Birthday Photos/13.jpeg",
-    "Birthday Photos/14.jpeg",
-    "Birthday Photos/15.jpeg",
-    "Birthday Photos/16.jpeg",
+    "1.jpeg",
+    "2.jpeg",
+    "3.jpeg",
+    "4.jpeg",
+    "5.jpeg",
+    "6.jpeg",
+    "7.jpeg",
+    "8.jpeg",
+    "9.jpeg",
+    "10.jpeg",
+    "11.jpeg",
+    "12.jpeg",
+    "13.jpeg",
+    "14.jpeg",
+    "15.jpeg",
+    "16.jpeg",
 ];
 
 let currentPhoto = 0;
